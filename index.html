@@ -15,16 +15,36 @@
         .rounded {
             border-radius: 25px;
         }
+        .border {
+            border: 5px solid blue;
+        }
+        .divider {
+            height: 5px;
+            border-width:thin;
+            background-color: rgb(7, 9, 133);
+        }
+        .background {
+            background: rgb(232, 229, 224);
+            margin-right: 100px;
+            margin-left: 100px;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        .padding {
+            padding: 2%;
+        }
     </style>
 </head>
 <body>
+    <header class="background rounded">
+        <div class="center">
+            <h1 class="padding">Welcome to my Website of websites!</h1>
+            <img class="rounded border" src="SantaFe.jpg" alt="SantaFe" height="300" width="300">
+            <figcaption>Santa Fe</figcaption>
+        </div>
+    </header>
 
-    <div class="center">
-        <h1>Welcome to <u>the</u> mother-of-all-websites Website!</h1>
-        <img class="rounded" src="SantaFe.jpg" alt="SantaFe" height="300" width="300">
-    </div>
-
-    <hr>
+    <hr class="divider">
 
     <div class="margin15">
         <p>Check out my websites:
@@ -46,7 +66,7 @@
         </p>
     </div>
 
-    <hr>
+    <hr class="divider">
     
 </body>
 </html>
